@@ -1,0 +1,35 @@
+{
+  "name": "proposals-api",
+  "version": "1.0.0",
+  "description": "Consume Standards proposals from meta standard issues",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Standards/proposals-api.git"
+  },
+  "keywords": [
+    "github",
+    "standards",
+    "proposals",
+    "api"
+  ],
+  "author": "Leo Giovanetti <hello@leog.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Standards/proposals-api/issues"
+  },
+  "homepage": "https://github.com/Standards/proposals-api#readme",
+  "dependencies": {
+    "micro": "^7.3.3",
+    "node-fetch": "^1.7.0"
+  },
+  "now": {
+	"env": {
+		"GITHUB_ACCESS_TOKEN": "@github-access-token"
+	}
+  }
+}
